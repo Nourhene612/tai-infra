@@ -1,0 +1,5 @@
+# Ignore generated keys and local env files
+services/api-gateway/app/security/auth/keys/
+services/api-gateway/.env
+services/api-gateway/.venv/
+.devcontainer/**/.vscode/**

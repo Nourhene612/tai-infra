@@ -1,0 +1,15 @@
+{
+  "name": "TAI - attach to pi-gateway",
+  "dockerComposeFile": ["../infra/docker-compose.yml"],
+  "service": "pi-gateway",
+  "workspaceFolder": "/app",
+  "shutdownAction": "none",
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode-remote.remote-containers"
+  ],
+  "settings": {
+    "python.languageServer": "Pylance"
+  }
+}

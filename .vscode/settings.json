@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/services/api-gateway/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/services/api-gateway"
+  ],
+  "python.languageServer": "Pylance"
+}
